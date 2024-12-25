@@ -8,6 +8,17 @@
     <meta name="description" content="Discover the best unblocked games to play online for free. Access puzzle games, action games, strategy games, and more without restrictions. Updated daily with new games.">
     <meta name="keywords" content="unblocked games, free online games, browser games, puzzle games, action games, strategy games, no restriction games, games online">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="unblocked-games-1.github.io" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1GWBMM013"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-K1GWBMM013');
+    </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7606032375161967"
      crossorigin="anonymous"></script>
     
@@ -95,6 +106,24 @@
     </style>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-content">
+            <a href="/" class="logo">Unblocked Games</a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#puzzle">Puzzle Games</a></li>
+                <li><a href="#action">Action Games</a></li>
+                <li><a href="#strategy">Strategy</a></li>
+                <li><a href="#new">New Games</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                
+            </ul>
+        </div>
+    </nav>
     <article>
         <h1>Unblocked Games: Your Ultimate Guide to Free Online Gaming</h1>
         
@@ -221,5 +250,23 @@
         <h2>Conclusion</h2>
         <p>Unblocked games provide endless entertainment possibilities right in your browser. With our regularly updated collection, you'll always find something new and exciting to play. Remember to bookmark this page to stay updated with the latest additions and features.</p>
     </article>
+     <!-- JavaScript for mobile menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.querySelector('.mobile-menu-btn');
+            const navMenu = document.querySelector('.nav-menu');
+
+            menuBtn.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('.nav-container')) {
+                    navMenu.classList.remove('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
